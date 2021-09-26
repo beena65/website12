@@ -990,136 +990,9 @@
     })(jQuery); 
     </script>
   
-	<script>
-		 /*---product column5 activation---*/
-		 var $porductColumn5 =  $('.product_column5');
-    if($porductColumn5.length > 0){
-        $porductColumn5.on('changed.owl.carousel initialized.owl.carousel', function (event) {
-            $(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')}).owlCarousel({
-            loop: true,
-            nav: true,
-            autoplay: false,
-            autoplayTimeout: 8000,
-            items: 5,
-            margin: 20,
-            dots:false,
-            navText: ['<i class="ion-ios-arrow-left"></i>','<i class="ion-ios-arrow-right"></i>'],
-            responsiveClass:true,
-            responsive:{
-                    0:{
-                    items:1,
-                },
-                576:{
-                    items:2,
-                },
-                768:{
-                    items:3,
-                },
-                992:{
-                    items:4,
-                },
-                1200:{
-                    items:5,
-                },
+		
 
-              }
-        });
-    }
-		</script>
-
-		<script>
-		var $blogColumn3 = $('.blog_column3');
-        if($blogColumn3.length > 0){
-        $('.blog_column3').owlCarousel({
-            loop: true,
-            nav: true,
-            autoplay: true,
-            autoplayTimeout: 8000,
-            items: 3,
-            dots:true,
-            margin:30,
-            navText: ['<i class="ion-ios-arrow-left"></i>','<i class="ion-ios-arrow-right"></i>'],
-            responsiveClass:true,
-            responsive:{
-                    0:{
-                    items:1,
-                },
-                768:{
-                    items:2,
-                },
-                 992:{
-                    items:3,
-                }, 
-              }
-        });
-    }        
-        </script>
-
-		<script>
-		var $singleProductActive = $('.single-product-active');
-        if($singleProductActive.length > 0){  
-        $('.single-product-active').owlCarousel({
-            loop: true,
-            nav: true,
-            autoplay: false,
-            autoplayTimeout: 8000,
-            items: 4,
-            margin:15,
-            dots:false,
-            navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-            responsiveClass:true,
-            responsive:{
-                    0:{
-                    items:1,
-                },
-                320:{
-                    items:2,
-                },
-                400:{
-                    items:3,
-                },
-                992:{
-                    items:3,
-                },
-                1200:{
-                    items:4,
-                },
-
-
-              }
-        });
-    }
-		</script>
-
-        <script>
-    var $productColumn3 = $('.product_column3');
-    if($productColumn3.length > 0){
-        $productColumn3.on('changed.owl.carousel initialized.owl.carousel', function (event) {
-            $(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')}).owlCarousel({
-            loop: true,
-            nav: true,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            items: 3,
-            dots:true,
-            margin: 20,
-            navText: ['<i class="ion-ios-arrow-left"></i>','<i class="ion-ios-arrow-right"></i>'],
-            responsiveClass:true,
-            responsive:{
-                    0:{
-                    items:1,
-                },
-                768:{
-                    items:2,
-                },
-                992:{
-                    items:3,
-                },
-              }
-        });
-    }
-            </script>
-    
+<!--     
 <script>
      $(window).on('scroll',function() {    
            var scroll = $(window).scrollTop();
@@ -1135,52 +1008,10 @@
         $(this).tab('show')
       })
 
-</script>
+</script> -->
 
-<script>
-       /*---categories slideToggle---*/
-       $(".categories_title").on("click", function() {
-        $(this).toggleClass('active');
-        $('.categories_menu_toggle').slideToggle('medium');
-    }); 
+<!-- 
 
-    /*---widget sub categories---*/
-    $(".sub_categories1 > a").on("click", function() {
-        $(this).toggleClass('active');
-        $('.dropdown_categories1').slideToggle('medium');
-    }); 
-    
-    /*---widget sub categories---*/
-    $(".sub_categories2 > a").on("click", function() {
-        $(this).toggleClass('active');
-        $('.dropdown_categories2').slideToggle('medium');
-    }); 
-    
-    /*---widget sub categories---*/
-    $(".sub_categories3 > a").on("click", function() {
-        $(this).toggleClass('active');
-        $('.dropdown_categories3').slideToggle('medium');
-    }); 
-</script>
-
-<script>
-    	$(".categories_menu_toggle li.hidden").hide();
-	   $("#more-btn").on('click', function (e) {
-
-		e.preventDefault();
-		$(".categories_menu_toggle li.hidden").toggle(500);
-		var htmlAfter = '<i class="fa fa-minus" aria-hidden="true"></i> Less Categories';
-		var htmlBefore = '<i class="fa fa-plus" aria-hidden="true"></i> More Categories';
-
-
-		if ($(this).html() == htmlBefore) {
-			$(this).html(htmlAfter);
-		} else {
-			$(this).html(htmlBefore);
-		}
-	});
-    
-</script>
 
 <script>
       /*---Category menu---*/
@@ -1207,7 +1038,7 @@
         $('.categories_menu_toggle li.menu_item_children > a').append('<span class="expand"></span>');
     }
     categorySubMenuToggle();
-</script>
+</script> -->
 </body>
 
 </html>
