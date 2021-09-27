@@ -52,11 +52,15 @@
             <div class="row">
                 <div class="col-12">
                     <div class="canvas_open">
-                        <a href="#"><i class="icon-menu"></i></a>
+                        <a href="#"><i class="icon-menu">
+                            <i class="fa fa-bars"></i>
+                        </i></a>
                     </div>
                     <div class="offcanvas_menu_wrapper">
                         <div class="canvas_close">
-                            <a href="#"><i class="icon-x"></i></a>  
+                            <a href="#"><i class="icon-x">
+                                <i class="fa fa-times"></i>
+                            </i></a>  
                         </div>
                       
                         <div class="header_social text-right">
@@ -463,8 +467,8 @@
                     <div class="counter-wrap ftco-animate d-flex mt-md-3 fadeInUp ftco-animated">
                     <div class="text p-4 bg-primary">
                     <p class="mb-0">
-                    <span class="number" data-number="5">5</span>
-                    <span>Years of experience</span>
+                    <!-- <span class="number" data-number="5">5</span>
+                    <span>Years of experience</span> -->
                     </p>
                     </div>
                     </div>
@@ -753,7 +757,7 @@
                                 </section>
 
 
-                                <section class="ftco-section contact-section ftco-no-pb" id="contact_section">
+                                <section class="ftco-section contact-section ftco-no-pb" >
                                     <div class="container">
                                     <div class="row justify-content-center mb-5 pb-3">
                                     <div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
@@ -807,7 +811,7 @@
                         
                                     </div>
                                    
-                                    <div class="row no-gutters block-9">
+                                    <!-- <div class="row no-gutters block-9">
                                     <div class="col-md-6 order-md-last d-flex">
                                         <div class="gr_item anim_start">
                                             <div class="item_title">
@@ -824,10 +828,33 @@
                                     </div>
                                     <div class="col-md-6 d-flex">
                                        
-                                   
+                                   <iframe src="./map.html" frameborder="0"width="100%" height="100%"></iframe>
                                         </div>
+                                    </div> -->
                                     </div>
-                                    </div>
+                                    </section>
+
+                                    <section class="we_work sec panel">
+                                        <div class="wrrup">
+                                            <div class="gr half">
+                                            <div class="gr_item item_image anim_start ">
+                                                <iframe src="./map.html" frameborder="0"width="100%" height="500px"></iframe>
+                                            </div>
+
+                                            <div class="gr_item anim_start">
+                                                <div class="item_title">
+                                                    
+                                                    <h2>Where We Work</h2>
+                                                </div>
+                                                <div class="item_entry">
+                                                    <p>
+                                                        DV Excellus Pvt. Ltd, along with Kheti is will be working in two Federal State (Bagmati - Pradesh 3, Gandaki - Pradesh - 4). In Bagmati, we will be directly working in six districts, namely: Kathmandu, Bhaktapur, Lalitpur, Dhading, Chitwan and Makwanpur), whereas in Gandaki, we will be directly working in six districts, namely: Kaski, Syangja, Nawalparasi, Parbat, Baglung and Tanahun.	
+                                                    </p>
+                                                   
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
                                     </section>
 
     
@@ -843,7 +870,7 @@
     <!--footer area start-->
     <footer class="footer_widgets" style="padding: 53px 10px;
     box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
-    margin: 20px 0;">
+    margin: 20px 0;" id="contact_section">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
@@ -974,7 +1001,7 @@
       $('.owl-carousel').owlCarousel({
           loop:true,
           margin:7,
-          nav:true,
+          nav:false,
           dots:true,
           autoplayTimeout:2000,
           autoplay:true,
@@ -996,7 +1023,7 @@
   
 		
 
-<!--     
+     
 <script>
      $(window).on('scroll',function() {    
            var scroll = $(window).scrollTop();
@@ -1012,7 +1039,7 @@
         $(this).tab('show')
       })
 
-</script> -->
+</script> 
 
 <!-- 
 
@@ -1043,6 +1070,16 @@
     }
     categorySubMenuToggle();
 </script> -->
+<script>
+      /*---canvas menu activation---*/
+      $('.canvas_open,.off_canvars_overlay').on('click', function(){
+        $('.offcanvas_menu_wrapper,.off_canvars_overlay').addClass('active')
+    });
+    
+    $('.canvas_close,.off_canvars_overlay').on('click', function(){
+        $('.offcanvas_menu_wrapper,.off_canvars_overlay').removeClass('active')
+    });
+</script>
 </body>
 
 </html>
