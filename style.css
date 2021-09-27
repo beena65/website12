@@ -12316,7 +12316,9 @@ a:focus {
 .tab-content > .tab-pane {
   display: none;
 }
-
+.tab-content > .active {
+  display: block;
+}
 .ftco-counter .img {
   display: block;
   width: 100%;
