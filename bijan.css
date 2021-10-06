@@ -29,6 +29,13 @@ h1 {
   font-size: 14px;
 }
 
+.wrap {
+  width: 1180px;
+  margin: 0 auto;
+  z-index: 10;
+  position: relative;
+}
+
 h2 {
   font-size: 30px;
 }
