@@ -13256,3 +13256,25 @@ p {
   font-weight: 300;
   color: #757575;
 }
+
+
+@media (max-width: 992px) {
+  form#contact {
+    overflow: hidden;
+  }
+
+  .contact-info {
+    margin-top: 60px;
+  }
+  form#contact {
+    padding: 45px;
+  }
+
+  }
+
+
+  @media (max-width: 767px) {
+
+    form#contact {
+      padding: 30px;
+    }}
