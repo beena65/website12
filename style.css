@@ -12147,8 +12147,9 @@ textarea:-ms-input-placeholder {
 }
 
 .ftco-services .nav-link-wrap {
-  background: #31de79;
+  background:linear-gradient(to top, #d6dde5, #00f260);
 }
+s
 
 .tab-content > .active {
   display: block;
@@ -13257,7 +13258,6 @@ p {
   color: #757575;
 }
 
-
 @media (max-width: 992px) {
   form#contact {
     overflow: hidden;
@@ -13269,12 +13269,10 @@ p {
   form#contact {
     padding: 45px;
   }
+}
 
+@media (max-width: 767px) {
+  form#contact {
+    padding: 30px;
   }
-
-
-  @media (max-width: 767px) {
-
-    form#contact {
-      padding: 30px;
-    }}
+}
