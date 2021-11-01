@@ -15209,7 +15209,7 @@ p {
     background-position: center;
     background-size: cover;
     width: 450px;
-    /* height: 620px; */
+    height: 620px;
 }
 
 .swiper-slide img {
