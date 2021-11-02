@@ -3211,9 +3211,10 @@ body {
 
 /*playstore button*/
 
-@media only screen and (max-width: 767px) {
-    .counter-wrap .text button {
+
+/* @media only screen and (max-width: 767px) {
+    .ftco-section .text button {
         display: flex;
         margin: 5px 5px;
     }
-}
+} */
