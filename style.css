@@ -3212,8 +3212,9 @@ body {
 /*playstore button*/
 
 @media only screen and (max-width: 767px) {
-    .counter-wrap button {
+    .counter-wrap .text button {
         display: block;
         margin: 5px 5px;
+        width: 120px;
     }
 }
