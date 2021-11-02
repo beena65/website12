@@ -754,235 +754,6 @@ textarea:-ms-input-placeholder {
     }
 }
 
-
-/* @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .language_currency {
-        display: none;
-        margin-bottom: 14px;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .language_currency {
-        display: none;
-        margin-bottom: 17px;
-        text-align: center;
-    }
-}
-
-.language_currency>ul>li {
-    display: inline-block;
-    position: relative;
-    margin-right: 16px;
-    padding-right: 18px;
-}
-
-.language_currency>ul>li:last-child {
-    margin-right: 0;
-    padding-right: 0;
-}
-
-.language_currency>ul>li:last-child::before {
-    display: none;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .language_currency>ul>li {
-        margin-right: 7px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .language_currency>ul>li {
-        margin-right: 7px;
-    }
-}
-
-.language_currency>ul>li::before {
-    content: "";
-    width: 1px;
-    height: 14px;
-    background: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 50%;
-    transform: translatey(-50%);
-    right: 0;
-}
-
-.language_currency>ul>li:hover ul.dropdown_currency,
-.language_currency>ul>li:hover ul.dropdown_language {
-    visibility: visible;
-    max-height: 200px;
-}
-
-.language_currency>ul>li:hover>a {
-    color: #40a944;
-}
-
-.language_currency>ul>li>a {
-    text-transform: capitalize;
-    line-height: 39px;
-    font-size: 14px;
-    display: inline-block;
-    font-weight: 400;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .language_currency>ul>li>a {
-        line-height: 22px;
-        color: #222222;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .language_currency>ul>li>a {
-        line-height: 22px;
-        color: #222222;
-    }
-}
-
-.language_currency>ul>li>a i {
-    margin-left: 3px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .language_currency>ul>li>a i {
-        margin-left: 0px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .language_currency>ul>li>a i {
-        margin-left: 0px;
-    }
-}
-
-.language_currency>ul>li>a img {
-    margin-right: 4px;
-}
-
-.language_currency>ul>li:hover a:not([href]):not([tabindex]) {
-    color: #40a944;
-} */
-
-
-/* .dropdown_currency,
-.dropdown_language {
-    position: absolute;
-    background: #fff;
-    border: 1px solid #ededed;
-    padding: 10px 20px;
-    text-align: left;
-    top: 100%;
-    left: 0;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-    overflow: hidden;
-    z-index: 9999;
-    border-radius: 3px;
-    visibility: hidden;
-    max-height: 0;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .dropdown_currency,
-    .dropdown_language {
-        left: auto;
-        right: 0;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .dropdown_currency,
-    .dropdown_language {
-        left: auto;
-        right: 0;
-    }
-}
-
-.dropdown_currency li a,
-.dropdown_language li a {
-    text-transform: capitalize;
-    display: block;
-    font-size: 13px;
-    white-space: nowrap;
-    line-height: 28px;
-    color: #222222;
-}
-
-.dropdown_currency li a:hover,
-.dropdown_language li a:hover {
-    color: #40a944;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .dropdown_language {
-        left: -10px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .dropdown_language {
-        left: -10px;
-    }
-} */
-
-
-/* .header_social {
-    text-align: right;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header_social {
-        text-align: center !important;
-        margin-bottom: 18px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .header_social {
-        text-align: center !important;
-        margin-bottom: 18px;
-    }
-}
-
-.header_social ul li {
-    display: inline-block;
-    margin-right: 18px;
-}
-
-.header_social ul li:last-child {
-    margin-right: 0;
-}
-
-.header_social ul li a {
-    font-size: 16px;
-}
-
-.header_social ul li a:hover {
-    color: #40a944;
-}
-
-.header_middle {
-    padding: 30px 0 24px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header_middle {
-        margin-bottom: 29px;
-        padding: 0;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .header_middle {
-        margin-bottom: 29px;
-        padding: 0;
-    }
-}
- */
-
 .logo img {
     max-width: 100%;
     max-height: 70px;
@@ -1187,16 +958,6 @@ textarea:-ms-input-placeholder {
 .offcanvas_two .canvas_open {
     top: 28px;
 }
-
-
-/* } */
-
-
-/* @media only screen and (max-width: 767px) {
-  .offcanvas_two .canvas_open {
-    top: 29px;
-  }
-} */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .offcanvas_two .canvas_open a {
@@ -2448,7 +2209,7 @@ a:focus {
 
 p {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .testimony-wrap .position {
@@ -2723,7 +2484,7 @@ img {
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-    color: #fa65b1;
+    color: #0db04b;
 }
 
 .portfolio-item .thumb img {
@@ -2781,7 +2542,7 @@ img {
 
 .our-portfolio .owl-nav span:hover {
     color: #fff;
-    background-color: #fa65b1;
+    background-color: #0db04b;
 }
 
 @media screen and (max-width: 992px) {
@@ -2907,14 +2668,14 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
-    color: #fa65b1;
+    color: #0db04b;
 }
 
 form#contact input {
     width: 100%;
     height: 46px;
     background-color: transparent;
-    border: 1px solid #eee;
+    border: 1px solid #dbcece;
     outline: none;
     font-size: 15px;
     font-weight: 300;
@@ -2941,7 +2702,7 @@ form#contact textarea {
     height: 200px;
     border-radius: 23px;
     background-color: transparent;
-    border: 1px solid #eee;
+    border: 1px solid #dbcece;
     outline: none;
     font-size: 15px;
     font-weight: 300;
@@ -3244,6 +3005,15 @@ button.single-document-text {
     color: #fff;
 }
 
+body {
+    overflow-x: hidden !important;
+}
+
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 @media screen and (max-width: 667px) {
     body {
         overflow-x: hidden !important;
@@ -3260,5 +3030,11 @@ button.single-document-text {
 @media screen and (max-width: 568px) {
     .external-vacancy {
         display: block;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .external-vacancy {
+        margin: 20px auto;
     }
 }
