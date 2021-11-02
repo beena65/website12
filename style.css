@@ -448,6 +448,15 @@ textarea:-ms-input-placeholder {
 
 /* 01. header css here */
 
+#preloader {
+    background: #fff url(./images/ok.gif) no-repeat center center;
+    background-size: 25%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 .offcanvas_menu .container {
     position: relative;
 }
@@ -2655,13 +2664,6 @@ img {
     }
 }
 
-
-/* 
----------------------------------------------
-Portfolio
---------------------------------------------- 
-*/
-
 .our-portfolio {
     padding-top: 130px;
     overflow: hidden;
@@ -2721,7 +2723,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-    color: #31de79;
+    color: #fa65b1;
 }
 
 .portfolio-item .thumb img {
@@ -2779,7 +2781,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
     color: #fff;
-    background-color: #31de79;
+    background-color: #fa65b1;
 }
 
 @media screen and (max-width: 992px) {
