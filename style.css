@@ -2368,7 +2368,7 @@ img {
     }
     .sdg_listing_item_info {
         height: 45px;
-        align-items: flex-end;
+        align-items: center;
         margin: 20px 11px;
         padding: 5px 10px;
         display: flex;
