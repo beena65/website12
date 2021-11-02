@@ -2268,7 +2268,11 @@ p {
 }
 
 .sdg_listing_item {
-    width: 33%;
+    /* width: 33%;
+    height: 184px;
+    margin-left: 30px; */
+    width: 64%;
+    margin-top: 20px;
     height: 184px;
     margin-left: 30px;
 }
@@ -2285,6 +2289,10 @@ p {
     text-align: center;
 }
 
+.sdg_listing_item_icon img {
+    margin: 10px auto;
+}
+
 img {
     max-width: 100%;
 }
@@ -2292,6 +2300,7 @@ img {
 .sdg_listing_item_info {
     height: 45px;
     align-items: flex-end;
+    margin: 20px auto;
     display: flex;
 }
 
@@ -2324,7 +2333,11 @@ img {
 }
 
 .sdg_listing_item {
-    width: 33%;
+    /* width: 33%;
+    height: 184px;
+    margin-left: 30px; */
+    width: 64%;
+    margin-top: 20px;
     height: 184px;
     margin-left: 30px;
 }
