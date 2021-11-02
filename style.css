@@ -3217,3 +3217,48 @@ button.single-document-text {
         display: block;
     }
 }
+
+@media screen and (max-width: 568px) {
+    .external-vacancy {
+        display: block;
+    }
+}
+
+.document-flag img,
+.single-team-img img,
+.welcome-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+button.single-document-text {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.single-document-text span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .external-vacancy {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .external-vacancy {
+        display: block;
+    }
+}
