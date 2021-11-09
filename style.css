@@ -2827,7 +2827,7 @@ p {
 
 .swiper {
     width: 100%;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .swiper-slide {
