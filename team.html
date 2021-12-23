@@ -132,8 +132,8 @@
               data-wow-duration="1s"
               data-wow-delay="0.3s"
             >
-              <h6 class="subheading">About Us</h6>
-              <h4 class="mb-4">Our Team</h4>
+              <h6 class="subheading"> Our Team</h6>
+              <h4 class="mb-4">Board of Directors</h4>
               <div class="line-dec"></div>
             </div>
           </div>
@@ -156,7 +156,7 @@
                     </div>
                     <div class="down-content">
                       <h4>Tulsi Giri</h4>
-                      <span>Co-Founder</span>
+                      <!-- <span>Co-Founder</span> -->
                     </div>
                   </div>
                 </a>
@@ -169,7 +169,7 @@
                     </div>
                     <div class="down-content">
                       <h4>Debesh Lal Pradhan</h4>
-                      <span>Co-Founder</span>
+                      <!-- <span>Co-Founder</span> -->
                     </div>
                   </div>
                 </a>
@@ -182,7 +182,7 @@
                     </div>
                     <div class="down-content">
                       <h4>Subash Bhattarai</h4>
-                      <span>Technology Head</span>
+                      <!-- <span>Technology Head</span> -->
                     </div>
                   </div>
                 </a>
@@ -397,15 +397,17 @@
 	(function($) {
 		"use strict";
 		$(".looop").owlCarousel({
+      stagePadding: 50,
+    loop:true,
+    margin:10,
 		    center: true,
 		    items: 1,
-		    loop: true,
+		    
 		    autoplay: true,
 		    nav: true,
-		    margin: 0,
 		    responsive: {
 		        1200: {
-		            items: 5,
+		            items: 4,
 		        },
 		        992: {
 		            items: 3,
