@@ -717,7 +717,7 @@ id="about-section"
   
    
     
-   <div id="portfolio" class="our-portfolio section">
+   <div id="portfolio" class="our-portfolio  section">
     <div class="container">
      <div class="row">
         <div class="col-lg-5">
@@ -955,34 +955,16 @@ id="about-section"
 <script>
   (function($) {
       "use strict";
-      // $(".loop").owlCarousel({
-      //     center: true,
-      //     items: 1,
-      //     loop: true,
-      //     autoplay: true,
-      //     nav: true,
-      //     margin: 0,
-      //     responsive: {
-      //         1200: {
-      //             items: 5,
-      //         },
-      //         992: {
-      //             items: 3,
-      //         },
-      //         760: {
-      //             items: 2,
-      //         },
-      //     },
-      // });
-  
-$(".loop").owlCarousel({
+   $(".loop").owlCarousel({
 		    center: true,
 		    items: 1,
 		    loop: true,
 		    autoplay: false,
         speed:1000,
-		    nav: true,
+		    dots: true,
 		    margin: 0,
+        nav: false,
+        dots:true,
 		    responsive: {
 		        1200: {
 		            items: 3,
@@ -995,7 +977,6 @@ $(".loop").owlCarousel({
 		        },
 		    },
 		});
-	 
   })(window.jQuery);
 </script>
 
@@ -1010,7 +991,7 @@ $(".loop").owlCarousel({
             nav: false,
             autoplay: true,
             autoplayTimeout: 5000,
-            dots:false,
+            dots:true,
             items: 1,
     
             

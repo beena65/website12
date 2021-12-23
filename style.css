@@ -1090,7 +1090,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 767px) {
   .slider_area .owl-nav div {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -2613,6 +2613,16 @@ img {
 
 @media screen and (max-width: 992px) {
   .our-portfolio .owl-nav {
+    /* display: none !important; */
+    position: absolute !important;
+    bottom: -10px !important;
+    top: unset !important;
+  }
+  .our-portfolio .owl-nav span {
+    background: rgba(243, 247, 243, 0.25) !important;
+    border-radius: 50%;
+  }
+  .our-portitem .owl-nav {
     display: none !important;
   }
   .services .naccs .menu div {
