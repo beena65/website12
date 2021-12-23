@@ -1694,7 +1694,8 @@ textarea:-ms-input-placeholder {
 /*our product start here*/
 .playstore_btn {
   background: #fff;
-  border: 1px solid #22b573;
+  border: 1px solid #2ad36a;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px 0px;
   color: #fff;
   text-decoration: none;
   text-align: center;
@@ -1702,7 +1703,6 @@ textarea:-ms-input-placeholder {
   display: inline-block;
   font-size: 15px;
   height: auto;
-  box-shadow: none;
   padding: 8px 14px;
   border-radius: 30px;
   margin: 10px 5px;
