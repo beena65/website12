@@ -1701,11 +1701,12 @@ textarea:-ms-input-placeholder {
   text-align: center;
   transition: all 0.5s ease;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   height: auto;
   box-shadow: none;
-  padding: 8px 25px;
+  padding: 8px 14px;
   border-radius: 30px;
+  margin: 10px 5px;
 }
 
 .ftco-section {
@@ -2507,6 +2508,14 @@ img {
 }
 .project_p {
   color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  text-align: initial;
+  font-size: 14px;
+}
+.down-content .p-10{
+  font-weight: 400;
+  text-align: center;
+  color: #0a3415;
 }
 .our-portfolio .item {
   position: relative;
@@ -2832,7 +2841,7 @@ p strong {
   color: #232931;
 }
 .btn.btn_round {
-  background: #a5a5a5;
+  background: linear-gradient(to right, #25a9e0 0%, #29b473 100%);
   color: #fff;
   border: 2 px solid transparent;
 }

@@ -399,8 +399,7 @@
           <div
             class=" counter-wrap ftco-animate  mt-md-3 fadeInUp ftco-animated "
           >
-            <div class="text p-4  d-flex" style="justify-content: space-around;
-            align-items: center;">
+           
               <button class="playstore_btn">
                 <a
                   href="https://play.google.com/store/apps/details?id=com.np.prb.bhakaari "
@@ -425,10 +424,8 @@
                   />kheti Food</a
                 >
               </button>
-              </div>
+            
 
-              <div class="text p-4  d-flex" style="justify-content: space-around;
-              align-items: center;">
               <button  class="playstore_btn">
       <a href="https://play.google.com/store/apps/details?id=com.dve.khetib2b " style="color: #333!important; "><img src="./images/playstore.png " alt=" " style="width: 20px; height: 20px; margin-right: 3px; ">kheti Food B2B</a>
      </button>
@@ -436,7 +433,7 @@
      <button  class="playstore_btn">
       <a href="https://apps.apple.com/np/app/khetifood/id1582499551 " style="color: #333!important; "><img src="./images/blackapple.png" alt=" " style="width: 20px; height: 20px; margin-right: 3px; ">kheti Food</a>
      </button>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -606,7 +603,7 @@ id="about-section"
                     platform was commercially launched in January 2019.  
                   </p>
                 <P>
-                  <a class="btn btn_round" href="./team.html">Our Team</a>
+                  <a class="btn btn_round" href="./team.html">Our Team  <span class="ion-ios-arrow-forward "></span> </a>
                 </P>
                 </div>
               </div>
@@ -694,7 +691,7 @@ id="about-section"
                     </div>
 
                     <p>
-                      Make a strong, motivated and skilled team to achieve our goals with proper training/education, incentives and personal growth.s
+                      Make a strong, motivated and skilled team to achieve our goals with proper training/education, incentives and personal growth.
                     </p>
                   </a>
                 </div>
@@ -735,8 +732,8 @@ id="about-section"
                  <p class="project_p">DV Excellus is collaborating with the Australian Embassy in Nepal (DFAT), Palladium and Upaya City Cargo in the BPP project. This project will help Kheti platform to reach 25,000 smallholder farmers in 15 districts and 250 plus B2B buyers in 4 market centers of Nepal. The project will run from July 2021 to December 2023.</p>
                 </div>
                 <div class="down-content">
-                  <p class="project_p">Business Partnership Platform  </p>
-                  <span style="color: #fff">(BPP)</span>
+                  <p class="project_p p-10">Business Partnership Platform  </p>
+                  <span style="color:#0a3415">(BPP)</span>
                 </div>
               </div>
               </a>  
@@ -748,7 +745,7 @@ id="about-section"
               <p class="project_p">Under the project collaboration with Upaya City Cargo, DV Excellus is piloting a digital literacy training for 600 farmers of Kaski, Kathmandu and Chitwan under SEEP Project. This one year project will run until February 2022. </p>
                 </div>
                 <div class="down-content">
-                  <p class="project_p">SEEP</p>
+                  <p class="project_p p-10">SEEP</p>
                   
                 </div>
               </div>
@@ -761,7 +758,7 @@ id="about-section"
                 <p class="project_p"> DV Excellus has entered into a MOU with Nabil Bank to digitalize agri-loan for smallholder farmers. Jointly, we will create a digital system where farmers can access collateral free loans of upto NPR 200,000 at their fingertips through Kheti platform.  
                 </p>  </div>
                 <div class="down-content">
-                  <p class="project_p">Access to Finance</p>
+                  <p class="project_p p-10">Access to Finance</p>
                 
                 </div>
               </div>
@@ -964,31 +961,27 @@ id="about-section"
       //         },
       //     },
       // });
-    $('.loop').owlCarousel({
-    loop:true,
-    rtl: false,
-    lazyLoad:true,
-    autoplay:true,
-    speed:1500,
-    margin:0,
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:2
-        },
-        800:{
-            items: 3
-        },
-        1000:{
-            items:2
-        },
-      1200:{
-          items: 3
-      }
-    }
-})
+  
+$(".loop").owlCarousel({
+		    center: true,
+		    items: 1,
+		    loop: true,
+		    autoplay: true,
+		    nav: true,
+		    margin: 0,
+		    responsive: {
+		        1200: {
+		            items: 3,
+		        },
+		        992: {
+		            items: 3,
+		        },
+		        760: {
+		            items: 2,
+		        },
+		    },
+		});
+	 
   })(window.jQuery);
 </script>
 
@@ -1215,29 +1208,23 @@ loader.style.display="none ";
   (function ($) {
     'use strict';
     $('.owl-carousel').owlCarousel({
-    loop:true,
-    // autoplay:true,
-    // speed:500,
-    dots:false,
-    margin:0,
-    nav:false,
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:2
-        },
-        800:{
-            items: 3
-        },
-        1000:{
-            items:2
-        },
-      1200:{
-          items: 5
-      }
-    }
+      center: true,
+		    items: 1,
+		   loop:true,
+		    nav: false,
+        dots:false,
+		    margin: 0,
+        responsive: {
+		        1200: {
+		            items: 3,
+		        },
+		        992: {
+		            items: 3,
+		        },
+		        760: {
+		            items: 1,
+		        },
+		    },
 })
 
   })(jQuery); 
