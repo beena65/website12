@@ -3433,9 +3433,7 @@ body {
   right: 4rem;
   left: auto;
 }
-.bg-dark {
-  background: linear-gradient(to right, #25a9e0 0%, #29b473 100%);
-}
+/* git */
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color: var(--dark-color);
