@@ -628,7 +628,7 @@ textarea:-ms-input-placeholder {
 .canvas_open {
   position: absolute;
   right: 17px;
-  top: 15px;
+  top: -15px;
   z-index: 9;
 }
 
@@ -638,11 +638,10 @@ textarea:-ms-input-placeholder {
   height: auto;
 }
 
-
 @media only screen and (max-width: 767px) {
   .canvas_open {
     right: 20px;
-    top: 25px;
+    top: -34px;
   }
 }
 
@@ -3219,7 +3218,7 @@ body {
 
 .container {
   max-width: 100% !important;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
 }
 
 @media screen and (max-width: 667px) {
@@ -3228,7 +3227,7 @@ body {
   }
   .container {
     max-width: 100% !important;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
   }
   .external-vacancy {
     display: block;
