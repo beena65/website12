@@ -33,9 +33,11 @@ body {
   font-style: normal;
   font-weight: 400;
   visibility: visible;
-  font-family: 'Work Sans', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
+  font-family: Charter BT Std Roman;
   color: #222222;
   letter-spacing: 0.02em;
+  text-align: justify;
 }
 
 h1,
@@ -143,6 +145,10 @@ figure {
   margin: 0;
 }
 
+.font_soecific {
+  font-family: Charter BT Std Roman;
+  color: #22b573;
+}
 /*-- 
     - Common Classes
 -----------------------------------------*/
@@ -204,6 +210,12 @@ figure {
 
 .bg-grey {
   background-color: #f8f8f8;
+}
+
+.bg-dark {
+  /* opacity: 0.5; */
+  background: rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .bluewood-bg {
@@ -2034,8 +2046,9 @@ a:focus {
 }
 
 .services-wrap p {
-  color: #232931;
+  color: #757575;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .btn.btn-primary {
@@ -2508,7 +2521,7 @@ img {
 .project_p {
   color: rgb(255, 255, 255);
   padding: 10px 10px;
-  text-align: initial;
+  text-align: justify;
   font-size: 14px;
 }
 .down-content .p-10 {
@@ -2844,6 +2857,7 @@ p {
   line-height: 30px;
   font-weight: 300;
   color: #757575;
+  text-align: justify;
 }
 
 p strong {
@@ -3035,6 +3049,12 @@ p strong {
 
 .section-padding {
   padding: 10px 0;
+  background: rgba(224, 211, 211, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .item {
   text-align: center;
@@ -3441,4 +3461,15 @@ body {
   border-radius: 100px;
   width: 3rem;
   height: 3rem;
+}
+
+@media only screen and (max-width: 640px) {
+  iframe {
+    height: 1200px; /*whatever you need, to make the scrollbar hide on testing, and the content of the iframe reveal (on mobile/phone or other target devices) */
+  }
+}
+@media only screen and (max-width: 420px) {
+  iframe {
+    height: 1600px; /*and so on until and as needed */
+  }
 }
