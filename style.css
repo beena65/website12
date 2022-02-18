@@ -987,13 +987,13 @@ textarea:-ms-input-placeholder {
 
 /* 02. slider area css here */
 
-.single_slider {
+/* .single_slider {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   height: 550px;
-}
+} */
 
 /* @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .single_slider {
@@ -1013,12 +1013,8 @@ textarea:-ms-input-placeholder {
   }
 }*/
 
-@media only screen and (max-width: 767px) {
-  .single_slider {
-    background-position: 5%;
-    height: 130px;
-  }
-}
+/* 
+ */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider_section.mb-40 {
@@ -1498,27 +1494,27 @@ textarea:-ms-input-placeholder {
   }
 }
 
-.slider_height .single_slider {
+/* .slider_height .single_slider {
   height: 655px;
-}
+} */
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider_height .single_slider {
     height: 500px;
   }
-}
+} */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider_height .single_slider {
     height: 400px;
   }
-}
+} */
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .slider_height .single_slider {
     height: 320px;
   }
-}
+} */
 
 .slider_text6 h2 {
   font-size: 18px;
