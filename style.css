@@ -147,7 +147,7 @@ figure {
 
 .font_soecific {
   font-family: Charter BT Std Roman;
-  color: #22b573;
+  color: #efefef;
 }
 /*-- 
     - Common Classes
@@ -213,8 +213,8 @@ figure {
 }
 
 .bg-dark {
-  /* opacity: 0.5; */
-  background: rgba(255, 255, 255, 0.25) !important;
+  opacity: 0.5;
+  /* background: rgba(255, 255, 255, 0.25) !important; */
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
@@ -3404,6 +3404,9 @@ body {
   .widget_newsletter p {
     padding-right: 0;
     margin-bottom: 18px;
+  }
+  .footer_menu p {
+    text-align: justify;
   }
 }
 
