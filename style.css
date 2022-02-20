@@ -36,8 +36,8 @@ body {
   /* font-family: 'Work Sans', sans-serif; */
   font-family: Charter BT Std Roman;
   color: #222222;
-  letter-spacing: 0.02em;
-  text-align: justify;
+  /* letter-spacing: 0.02em; */
+  /* text-align: justify; */
 }
 
 h1,
@@ -84,7 +84,7 @@ h5 {
 h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #31de79;
+  color: #40a944;
   text-transform: uppercase;
   /* margin-bottom: 15px; */
   line-height: 1.2;
@@ -1997,7 +1997,7 @@ s .tab-content > .active {
 
 .services-wrap .icon span {
   font-size: 20px;
-  color: #89ecb2;
+  color: #40a944;
 }
 
 .ion-ios-arrow-back:before {
@@ -2859,7 +2859,6 @@ p {
   line-height: 30px;
   font-weight: 300;
   color: #757575;
-  text-align: justify;
 }
 
 p strong {
@@ -2892,38 +2891,6 @@ p strong {
 .about-image {
   width: 100%;
   height: 100%;
-  max-height: 635px;
-  min-height: 475px;
-  object-fit: cover;
-}
-
-.team-thumb {
-  background: var(--white-color);
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 65%;
-  padding: 22px 32px 32px 32px;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-  top: auto;
-  bottom: 2.5rem;
-}
-
-.carousel-control-prev {
-  right: 4rem;
-  left: auto;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-color: var(--dark-color);
-  background-size: 50% 50%;
-  border-radius: 100px;
-  width: 3rem;
-  height: 3rem;
 }
 
 @media (max-width: 992px) {
@@ -3425,59 +3392,108 @@ body {
         margin: 5px 5px;
     }
 } */
-
-/*---------------------------------------
-  ABOUT & TEAM MEMBERS               
------------------------------------------*/
-.about-image {
-  width: 100%;
-  height: 100%;
-  max-height: 635px;
-  min-height: 475px;
-  object-fit: cover;
+/* 
+.testimonial {
+ 
+  padding-bottom: 90px;
+  background: #40a944;
+  padding-top: 60px;
 }
-.team-image {
-  height: 100%;
-  max-height: 635px;
-  min-height: 475px;
+.titlepage {
+  text-align: center;
+  padding-bottom: 60px;
 }
 
-.team-thumb {
-  background: var(--white-color);
+.testimonial .titlepage h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.testimonial .titlepage h2::after {
+  border-bottom: #fff solid 1px;
+  content: '';
   position: absolute;
   bottom: 0;
+  left: 0;
   right: 0;
-  width: 65%;
-  padding: 22px 32px 32px 32px;
+  width: 100%;
+  max-width: 259px;
+  margin: 0 auto;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-  top: auto;
-  bottom: 2.5rem;
+.testimonial .titlepage p {
+  font-size: 17px;
+  color: #fff;
 }
 
-.carousel-control-prev {
-  right: 4rem;
-  left: auto;
-}
-/* git */
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-color: var(--dark-color);
-  background-size: 50% 50%;
-  border-radius: 100px;
-  width: 3rem;
-  height: 3rem;
+.testimonial_Carousel .carousel-caption {
+  position: inherit;
 }
 
-@media only screen and (max-width: 640px) {
-  iframe {
-    height: 1200px; /*whatever you need, to make the scrollbar hide on testing, and the content of the iframe reveal (on mobile/phone or other target devices) */
-  }
+.testimonial_box i img {
+  margin-top: -120px;
 }
-@media only screen and (max-width: 420px) {
-  iframe {
-    height: 1600px; /*and so on until and as needed */
-  }
+
+.testimonial_box h4 {
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #090808;
+  display: block;
+  font-weight: 500;
 }
+
+.testimonial_box {
+  text-align: center;
+  background: #fff;
+  box-shadow: #ddd 0px 0px 10px 0px;
+  padding: 0px 40px 40px 40px;
+}
+
+.testimonial_Carousel .test_box .jons {
+  text-align: left;
+  margin-bottom: 4px;
+  margin-left: -10px;
+}
+
+.testimonial_Carousel .test_box .jons i {
+  float: left;
+  background: #fff;
+  border-radius: 50px;
+  padding: 9px;
+}
+
+.testimonial_Carousel .test_box .jons h4 {
+  font-size: 25px;
+  color: #fff;
+  padding-top: 27px;
+  line-height: 32px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.testimonial_Carousel .test_box p {
+  font-size: 17px;
+  line-height: 28px;
+  color: #090808;
+  background: #fff;
+  padding: 40px;
+  border-radius: 90px;
+}
+
+.testimonial_Carousel .carousel-indicators {
+  bottom: -30px;
+}
+
+.testimonial_Carousel .carousel-indicators li {
+  width: 56px;
+  height: 13px;
+  margin-right: -4px;
+  margin-left: -4px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.testimonial_Carousel .carousel-indicators li.active {
+  background: #000;
+} */
