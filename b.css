@@ -7,6 +7,9 @@
   background: #40a944;
 }
 
+.strategic_img {
+  max-height: 50px;
+}
 .wrap {
   width: 1180px;
   margin: 0 auto;
@@ -327,7 +330,7 @@ a {
 }
 
 .testimonial_Carousel .test_box p {
-  font-size: 17px;
+  font-size: 14px;
   line-height: 28px;
   /* color: #090808; */
   /* background: #fff; */
@@ -339,11 +342,13 @@ a {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 40px;
-  border-radius: 90px;
+  padding: 9px;
+  border-radius: 10px;
+  text-align: justify;
+  max-height: 160px;
 }
 
-.testimonial_p{
+.testimonial_p {
   color: #f1f1f1;
   text-transform: capitalize;
 }
@@ -394,12 +399,13 @@ a {
   }
   .testimonial_Carousel .test_box .jons h4 {
     padding-left: 9px;
-    font-size: 21px;
+    font-size: 15px;
   }
   .testimonial_Carousel .test_box p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 23px;
-    padding: 28px;
+    padding: 9px;
+    max-height: 224px;
   }
   .testimonial_box {
     padding: 0px 19px 40px 20px;
@@ -413,6 +419,32 @@ a {
 .team-image {
   height: 100%;
   max-height: 635px;
-  min-height: 475px;
-  object-fit: cover;
+  /* min-height: 475px;
+  object-fit: cover; */
+}
+
+/*responsive iframe*/
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  height: 50%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  border: none;
+}
+@media (max-width: 768px) {
+  .responsive-iframe {
+    height: 100% !important;
+  }
 }
