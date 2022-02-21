@@ -3373,9 +3373,9 @@ body {
     padding-right: 0;
     margin-bottom: 18px;
   }
-  .footer_menu p {
+  /* .footer_menu p {
     text-align: justify;
-  }
+  } */
 }
 
 @media (min-width: 1200px) {
