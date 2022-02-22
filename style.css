@@ -33,11 +33,11 @@ body {
   font-style: normal;
   font-weight: 400;
   visibility: visible;
-  /* font-family: 'Work Sans', sans-serif; */
-  font-family: Charter BT Std Roman;
+  font-family: 'Work Sans', sans-serif;
+  /* font-family: Charter BT Std Roman; */
   color: #222222;
-  /* letter-spacing: 0.02em; */
-  /* text-align: justify; */
+  letter-spacing: 0.02em;
+  text-align: justify;
 }
 
 h1,
@@ -148,6 +148,9 @@ figure {
 .font_soecific {
   font-family: Charter BT Std Roman;
   color: #efefef;
+  text-align: center;
+  line-height: 2em;
+  text-transform: capitalize;
 }
 /*-- 
     - Common Classes
@@ -213,8 +216,9 @@ figure {
 }
 
 .bg-dark {
-  opacity: 0.5;
-  /* background: rgba(255, 255, 255, 0.25) !important; */
+  /* opacity: 0.5; */
+  /* background:#333; */
+  background-color: #c0b07d !important;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
