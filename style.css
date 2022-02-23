@@ -2052,7 +2052,7 @@ a:focus {
 }
 
 .services-wrap p {
-  color: #757575;
+  color: #141823;
   margin-bottom: 0;
   text-align: justify;
 }
@@ -2304,7 +2304,7 @@ p {
 
 .wsc_bg {
   border-radius: 14px;
-  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+  box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 10%);
   margin-bottom: 30px;
   padding: 20px;
   background: #fff;
@@ -2859,10 +2859,10 @@ form#contact button:hover {
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 30px;
   font-weight: 300;
-  color: #757575;
+  color: #141823;
 }
 
 p strong {
@@ -3004,8 +3004,8 @@ p strong {
 }
 
 .wsc_bg {
-  background: #fff;
-  box-shadow: 0px 0px 20px 0px rgb(0 0 0 /10%);
+  /* background: #fff; */
+  /* box-shadow: 0px 0px 20px 0px rgb(0 0 0 /10%); */
 }
 /*strategic partner*/
 
@@ -3021,8 +3021,8 @@ p strong {
 
 .section-padding {
   padding: 10px 0;
-  background: rgba(224, 211, 211, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* background: rgba(224, 211, 211, 0.25); */
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
